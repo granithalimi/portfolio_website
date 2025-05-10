@@ -19,9 +19,9 @@ function Header() {
 	  			<CgProfile className={`text-5xl ${darkMode ? "text-gray-300" : "text-gray-500"}`} /> 
 	  </div>
 			<div className={`h-full flex gap-4 ${darkMode ? "text-gray-300" : "text-gray-500"} `}>
-	  			<button className="cursor-pointer hover:text-black duration-500">testing</button>
-	  			<button className="cursor-pointer hover:text-black duration-500">testing</button>
-	  			<button className="cursor-pointer hover:text-black duration-500">testing</button>
+	  			<button className="cursor-pointer hover:text-black duration-500">Button1</button>
+	  			<button className="cursor-pointer hover:text-black duration-500">Button2</button>
+	  			<button className="cursor-pointer hover:text-black duration-500">Button3</button>
 	  			<button onClick={e => setDarkMode(!darkMode)} className="cursor-pointer hover:text-black duration-500">DARKMODE</button>
 	  </div>
 	  </div> 
