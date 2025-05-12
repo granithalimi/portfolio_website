@@ -91,7 +91,7 @@ function Content() {
             target="_blank"
             rel="noreferrer"
             className="underline text-indigo-500 hover:text-blue-700 duration-500 text-sm md:text-xl"
-            href={"https://github.com/granithalimi/quickly"}
+            href={"https://quickbuy-test.netlify.app/"}
           >
             <div className="flex items-center">
               <span>QuickBuy</span>
