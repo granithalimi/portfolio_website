@@ -44,10 +44,12 @@ function Content() {
           Granit Halimi
         </h1>
         <p className={`${darkMode ? "text-gray-400" : "text-gray-500"} roboto`}>
-          Hello, I'm Granit Halimi. I've been writing code for almost 2 years.
+          Hi, I’m Granit Halimi — a passionate front-end developer with nearly
+          two years of coding experience.
           <br />
-          I completed a 6-month Coding Bootcamp "PerProgramera" where I was
-          selected as a <br />
+          I completed a 6-month coding bootcamp at PerProgramera, where I was
+          honored to be selected as a
+          <br />
           <a
             target="_blank"
             rel="noreferrer"
@@ -56,19 +58,24 @@ function Content() {
               "https://perprogramera.com/studentet-e-dalluar-te-bootcamp-9/"
             }
           >
-            Distinguished Student
-          </a>
-          , I am interested in an internship in Front-End. <br />I have solved
-          around 91
+            Distinguished Student.
+          </a>{" "}
+          <br />
+          I’m currently seeking an internship in{" "}
+          <span className="font-bold">Front-End Development</span> to continue
+          growing my skills and contributing to real-world projects.
+          <br />
+          So far, I’ve solved over{" "}
           <a
             target="_blank"
             rel="noreferrer"
             className="underline text-indigo-500 hover:text-blue-700 duration-500"
             href="https://leetcode.com/_ggranit/"
           >
-            Leetcode Problems
+            90 LeetCode problems
           </a>
-          (solving more everyday) <br />I am using{" "}
+          (and counting!), sharpening my problem-solving and algorithmic
+          thinking. <br />I primarily work with{" "}
           <span
             className={`${darkMode ? "text-gray-300" : "text-gray-600"}`}
             style={{ fontWeight: 900 }}
@@ -82,7 +89,7 @@ function Content() {
           >
             TailwindCSS
           </span>{" "}
-          as technologies and these are some of my projects:
+          as technologies, and here are a few of the projects I’ve built:
           <br />
         </p>
 
@@ -124,9 +131,15 @@ function Content() {
         </div>
 
         <p className={`${darkMode ? "text-gray-400" : "text-gray-500"} roboto`}>
-          Thank you in advance. <br />
+          {/* Thank you in advance. <br />
           I look forward to your response, <br />
-          Granit Halimi
+          Granit Halimi */}
+          Thank you for visiting my portfolio. <br />
+          I’m excited about the opportunity to learn and collaborate.
+          <br />
+          <span>Let’s connect!</span>
+          <br />
+          <span className="italic font-extrabold">-Granit Halimi</span>
         </p>
       </div>
     </div>
